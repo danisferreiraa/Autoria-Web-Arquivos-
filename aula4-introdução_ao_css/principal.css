@@ -1,0 +1,20 @@
+/* Não se deve colocar os sinais de maior e menor "<>" na marcação.
+   É obrigatório colocar as chaves {} */
+
+body { /* o nome da tag do html que se quer formatar*/      
+            background-color: black; /* representa a cor do fundo da página */
+            font-family: Arial, Helvetica, sans-serif; /* representa a família da fonte */
+            color: white; /* representa a cor do texto da página */
+            font-size: 1.5rem; /* para colocar o tamanho da fonte é necessário colocar um número e uma unidade: px, rem, em, %, cm... */
+            /* atributos acima */
+        }   
+h1  {
+            text-align: center;
+            color: #ffde21
+        }
+li {
+    /* atributo que formata apenas as listas */
+    /* list-style-type: altera os marcadores */
+    list-style-type: square;
+    list-style-position: inside;   
+}
