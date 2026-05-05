@@ -1,0 +1,43 @@
+body {
+    background-color: pink;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+ol {
+    /* Atributo que coloca uma linha: espessura, estilo e cor */
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    /* Padding: espaçamento interno */
+    padding: 1rem;
+    text-align: center;
+}
+
+li {
+    display: inline-block; /* PERMITE QUE OS ITENS FIQUEM UM AO LADO DO OUTRO */
+    margin-right: 1rem; /* Valor + Unidade (não pode ter espaço!) unidade pode ser: px, em, rem, %.... */
+
+
+    /* O comportamento do LI é por padrão "block", isto é o bg fica de uma ponta da página até a outra
+       Já o âncora, fica com o background apenas na área do texto, por padrão é 'inline' 
+    */
+}
+
+a {
+  text-decoration: none; /* Tirar o sublinhado */
+  color: black; /* não funciona mudar a cor do li, é necessário mudar do âncora */
+  font-weight: bold /* texto em negrito */
+}
+
+a:hover { /* sublaclasse hover */
+    color: purple;
+}
+
+hr {
+    border: 2px solid black;
+}
