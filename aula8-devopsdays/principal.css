@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+.banner-principal {
+    width: 100%;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0; /* Espaço em cima e embaixo do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-principal h1 {
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+}
+
+h2{
+    padding: 0.75rem;
+    color: #207E92;
+}
+
+p{
+    font-size: 15pt;
+    padding: 0.75rem;
+}
+
+.links-paginas {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 17.5pt;
+}
+
+a {
+    text-decoration: none;
+    color: #207E92;
+    display: inline-block;
+    transition: transform 0.3 ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.h4dasredes {
+    color: #207E92;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+#h4dasredesdiferente {
+    color: #207E92;
+    margin-top: 22.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.redessociais {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    list-style: none;
+}
+.botaoderedesocial {
+    background-color: #207E92;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.caixa {
+    border: 5px solid gray;
+    border-radius: 15px;
+    background-color: rgb(241, 241, 241);
+    margin: 0.5rem;
+}
+
+.conteudo-caixa {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes h3 {
+    padding-left: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+#dataehorario{
+    font-size: 12pt;
+    padding-bottom: 0;
+    padding-left: 1.5rem;
+}
+
+#local {
+    font-size: 12pt;
+    padding-top: 0;
+    padding-left: 1.5rem;
+}
+
+.botao {
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+
+.botaodecompra {
+    background-color: rgb(175, 87, 76);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3 ease;
+}
+
+.botaodecompra:hover {
+    background-color: rgb(160, 79, 69);
+}
+
+.conteudo-programacao {
+    display: inline-block;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.turnos {
+    padding-left: 1.25rem;
+}
+
+.acoesprog {
+    list-style-position: inside;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.listaprog {
+    padding-bottom: 1.5rem;
+}
