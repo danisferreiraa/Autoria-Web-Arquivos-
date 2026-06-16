@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 83, 0);
+    color: cadetblue;
+}
+section{
+    padding: 2rem;
+    margin: 2rem;
+}
+/* 
+para acessar a section com id:
+    pode ser: section#localhorario ou #localhorario
+    tem diferença! (um acessa apenas a ID que tá numa section. a outra acessa qualquer marcação com essa ID)
+*/
+section#localhorario{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+/* 
+para acessar a marcação com class:
+    pode ser: .destaque ou (marcação).destaque
+    tem diferença! (um acessa a class independente da marcação. a outra acessa a classe daquela marcação especificada)
+*/
+.destaque{
+    font-weight: bold;
+    background-color: greenyellow;
+
+}
+
+a{
+    color: cadetblue;
+    text-decoration: none;
+}
