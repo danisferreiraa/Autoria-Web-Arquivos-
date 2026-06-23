@@ -1,0 +1,24 @@
+body{
+    color: rgb(255, 245, 233);
+    background-color: rgb(17, 69, 111);
+}
+/* posso selecionar vários femboys seletores com a vírgula */
+h1 a, li a{
+    color: rgb(255, 245, 233);
+}
+header, footer{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav ol{
+    text-align: center;
+    padding: 0; /* por padrão a lista tem um espaçamento à esquerda, para a lista ficar no centro, é importante "zerar", remover esse espaço */
+}
+main{
+    max-width: 70rem; /* largura máxima */
+    margin: 0 auto;  /* auto de automático - possibilita o container se apresentar ao centro da janela do navegador */
+    background-color: rgb(170, 98, 3);
+    padding: 2rem; /* espaçamento interno */
+}
