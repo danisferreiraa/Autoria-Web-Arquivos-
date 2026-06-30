@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAYFLEX 1 - index com container</title>
+    <style>
+        body{
+            background-color: rgb(0, 247, 255);
+        }
+        div#container{
+            border: 2px solid rgb(39, 71, 39);
+            background-color: rgb(71, 143, 71);
+            max-width: 70rem; /*largura máxima auxilia a responsividade*/
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            /*
+            - o display flex altera o COMPORTAMENTO das marcações 'filhas'
+            - as marcações ficarão uma ao lado da outra 
+            */
+        }
+        div div{
+            border: 5px solid black;
+            width: 5rem;
+            margin: 2rem; 
+            padding: 2rem;
+            background-color: aliceblue;
+        }
+        div.a{ order: 3;}
+        div.b{ order: 6;}
+        div.c{ order: 2;}
+        div.d{ order: 1;}
+        div.e{ order: 5;}
+        div.f{ order: 4;}
+        /* o atributo de 'order' altera a ordem das marcações que estão no display flex
+        uma regra é que é necessário definir o atributo em todas as marcações! */
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="a"><p>1</p></div>
+        <div class="b"><p>2</p></div>
+        <div class="c"><p>3</p></div>
+        <div class="d"><p>4</p></div>
+        <div class="f"><p>5</p></div>
+        <div class="f"><p>6</p></div>
+    </div>
+</body>
+</html>

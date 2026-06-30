@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAYFLEX 1</title>
+    <style>
+        body{
+            background-color: rgb(71, 143, 71);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            /*
+            - o display flex altera o COMPORTAMENTO das marcações 'filhas'
+            - as marcações ficarão uma ao lado da outra 
+            */
+        }
+        div{
+            border: 5px solid black;
+            width: 5rem;
+            margin: 2rem; 
+            padding: 2rem;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div><p>1</p></div>
+    <div><p>2</p></div>
+    <div><p>3</p></div>
+    <div><p>4</p></div>
+    <div><p>5</p></div>
+    <div><p>6</p></div>
+</body>
+</html>
